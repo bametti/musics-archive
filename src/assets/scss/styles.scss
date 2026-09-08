@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Qwigley&display=swap');
+
+:root {
+  --font-logo: 'Qwigley', cursive;
+  --font-title: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Background */
+  --bg-primary: #030406;
+  --bg-secondary: #080a11;
+  --bg-tertiary: #0b0f18;
+
+  /* Glass */
+  --surface: #0f1422;
+  --surface-light: #151c30;
+  --surface-hover: #1a223a;
+
+  /* Accent */
+  --accent: #5a5cff;
+  --accent-light: #7a6cff;
+  --accent-dark: #393bff;
+
+  /* Text */
+  --text-primary: #f5f7ff;
+  --text-secondary: #b5bdd1;
+  --text-muted: #6f7892;
+
+  /* Border */
+  --border: rgba(255, 255, 255, 0.08);
+
+  /* Shadow */
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.45);
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 30px rgba(90, 92, 255, 0.18);
+
+  /* Radius */
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 34px;
+  --radius-full: 999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+
+  background: linear-gradient(180deg, #020305 0%, #05070c 40%, #090c14 100%);
+
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
