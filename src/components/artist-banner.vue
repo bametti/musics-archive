@@ -82,9 +82,9 @@ import { Icon } from '@iconify/vue'
 
       .artist-socials {
         display: flex;
-        gap: 1rem;
+        gap: 1.8rem;
         margin-top: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
 
         a {
           color: var(--text-primary);
